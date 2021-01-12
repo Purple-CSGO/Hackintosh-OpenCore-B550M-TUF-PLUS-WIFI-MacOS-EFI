@@ -14,6 +14,15 @@
 | Drive          | WD SN750 512GB                                 | All                              |
 | System         | MacOS Big Sur 11.1                             | MacOS Big Sur ~11.1              |
 
+- [x] Sound
+- [x] Ethernet
+- [x] Wifi
+- [x] Bluetooth
+- [x] Airdrop
+- [x] GPU Optimization
+- [ ] Sidecar (Not checked)
+- [ ] Sleep (Not checked)
+
 # 安装和使用
 
 待定
