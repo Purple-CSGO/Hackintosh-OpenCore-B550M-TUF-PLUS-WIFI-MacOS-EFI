@@ -20,8 +20,8 @@
 - [x] Bluetooth
 - [x] Airdrop
 - [x] GPU Optimization
+- [x] Sleep
 - [ ] Sidecar (Not checked)
-- [ ] Sleep (Not checked)
 
 # 安装和使用
 
