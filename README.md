@@ -1,25 +1,31 @@
 # Hackintosh-OpenCore-B550M-TUF-PLUS-WIFI-MacOS-EFI
 
-## 公告
+### CPU修改
 
-因更换显卡，现最新为rx560分支，去掉了显卡定制，加了几个kexts，删去了启动项中为RX5000系列显卡使用的`agdpmod=pikera`。
+Kernel -> Patch 中 0、1、2的Replace项要根据CPU核心数量调整，第3、4个16进制位=核心数，5600x -> `06` 5800x -> `08` 5900x -> `0C` 5950x `10`
 
-没有定制usb，所以睡眠应该有问题，解决办法就是关闭睡眠（）
+当前为5800x，如果使用5900x
+
+`B8080000 0000` -> `B80C0000 0000`
+
+## 睡眠
+
+没有定制usb，所以睡眠应该有问题，解决办法就是关闭睡眠（
 
 ## 简介
 
 
-|   | 当前 | 兼容 |
-| - | - | - |
-| CPU | AMD Ryzen7 3700X | Ryzen CPUs |
-| MotherBoard | Asus TUF Gaming B550M-Plus (WI-FI) | A520 & B550 |
-| GPU | SAPPHIRE RX5500XT 8GB | RX5000 Series |
-| RAM | 32GB (4 x 8GB) Crucial C9BJZ @3800MHz C16 (OC) | All |
-| Audio Chipset | ALCS-1200A | Many (Change boot-arg to compat) |
-| NIC (Wireless) | Brcm DW1560 | Only This One |
-| Ethernet | RTL8125 2.5GbE | Only This One |
-| Drive | WD SN750 512GB | All |
-| System | MacOS Big Sur 11.1 | MacOS Big Sur ~11.1 |
+|                | 当前                                           | 兼容                             |
+| ---------------- | ------------------------------------------------ | ---------------------------------- |
+| CPU            | AMD Ryzen7 5800X                               | Ryzen CPUs                       |
+| MotherBoard    | Asus TUF Gaming B550M-Plus (WI-FI)             | A520 & B550                      |
+| GPU            | SAPPHIRE RX6600XT 8GB                          | RX5000 Series                    |
+| RAM            | 32GB (4 x 8GB) Crucial C9BJZ @3800MHz C16 (OC) | All                              |
+| Audio Chipset  | ALCS-1200A                                     | Many (Change boot-arg to compat) |
+| NIC (Wireless) | Brcm DW1560                                    | Only This One                    |
+| Ethernet       | RTL8125 2.5GbE                                 | Only This One                    |
+| Drive          | WD SN750 512GB                                 | All                              |
+| System         | MacOS Monterey 12.1 Beta                       | untested                         |
 
 - [X] Sound
 - [X] Ethernet
