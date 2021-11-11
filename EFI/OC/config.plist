@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>#NOTICE</key>
-	<string>Version 1.2 of Purple-CSGO/Hackintosh-OpenCore-B550M-TUF-WIFI-MacOS-EFI</string>
+	<string>Version 2.0 of Purple-CSGO/Hackintosh-OpenCore-B550M-TUF-WIFI-MacOS-EFI</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
