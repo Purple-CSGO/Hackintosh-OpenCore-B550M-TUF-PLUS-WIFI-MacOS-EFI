@@ -196,7 +196,13 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-		<dict/>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+			<dict>
+				<key>layout-id</key>
+				<data>AQAAAA==</data>
+			</dict>
+		</dict>
 		<key>Delete</key>
 		<dict/>
 	</dict>
@@ -1423,7 +1429,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 alcid=1 agdpmod=pikera brcmfx-driver=2</string>
+				<string>-v debug=0x100 keepsyms=1 alcid=1 agdpmod=pikera brcmfx-driver=0</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
