@@ -1,5 +1,11 @@
 # Hackintosh-OpenCore-B550M-TUF-PLUS-WIFI-MacOS-EFI
 
+## 注意
+
+当前版本可正常安装引导，但蓝牙、隔空投送不能正常工作
+
+SMBIOS已删除，请自行生成MacPro7,1的各序列号和ROM
+
 ## 简介
 
 
@@ -18,9 +24,9 @@
 - [X] Sound
 - [X] Ethernet
 - [X] Wifi
-- [X] Bluetooth
-- [X] Airdrop
-- [X] GPU Optimization
+- [ ] Bluetooth
+- [ ] Airdrop
+- [ ] GPU Optimization
 - [ ] Sleep
 - [ ] Sidecar (Not checked)
 
