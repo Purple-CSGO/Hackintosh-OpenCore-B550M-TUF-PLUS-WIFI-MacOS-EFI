@@ -1,5 +1,11 @@
 # Hackintosh-OpenCore-B550M-TUF-PLUS-WIFI-MacOS-EFI
 
+## 2022.6.2 补充
+
+main分支：MacOS 11 Bigsur
+monterey分支：MacOS 12 Monterey
+
+
 ## 公告
 
 因更换显卡，现最新为rx560分支，去掉了显卡定制，加了几个kexts，删去了启动项中为RX5000系列显卡使用的`agdpmod=pikera`。
